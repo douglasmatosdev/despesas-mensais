@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    padding-top: 1em;
+    background-color: #444;
+    width: 100%;
+    height: 5em;
+    border-bottom: .5em solid #ccc;
+}
+
+.menu-nav-principal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-menu-nav-principal {
+    list-style: none;padding: .5em;}
+
+.item-menu-nav-principal a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.titulo-principal {
+    font-size: 2.5em;
+    color: #eee;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+th,  td{
+    text-align: center;
+    border: 1px solid #000;
+    padding: .5em;
+}
+
+.icone-despesa, .icone-positivo {
+    width: 5ch;
+}
+.formulario, .adiciona-despesa {
+    /* width: 90%; */
+    margin: 0 auto;
+}
+
+.adiciona-despesa {
+    margin-top: 2.5em;
+}
+
+.conjunto {
+    width: 20%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+.campo-formulario{
+    margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-pequeno {
+    display: inline-block;
+	padding-right: .5em;
+}
+
+
+.conjunto label {
+    color: #555;
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .2em;
+}
+
+button {
+    padding: .7em;
+    color: #eee;
+    background-color: #444;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
